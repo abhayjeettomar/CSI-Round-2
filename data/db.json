@@ -2876,7 +2876,7 @@
       "startHour": 15,
       "endHour": 16,
       "capacity": 1,
-      "usedCapacity": 1
+      "usedCapacity": 0
     },
     "library:LIB-T03:2026-10-15:15": {
       "id": "library:LIB-T03:2026-10-15:15",
@@ -2956,7 +2956,7 @@
       "startHour": 15,
       "endHour": 16,
       "capacity": 1,
-      "usedCapacity": 1
+      "usedCapacity": 0
     },
     "library:LIB-T11:2026-10-15:15": {
       "id": "library:LIB-T11:2026-10-15:15",
@@ -3036,7 +3036,7 @@
       "startHour": 15,
       "endHour": 16,
       "capacity": 1,
-      "usedCapacity": 1
+      "usedCapacity": 0
     },
     "library:LIB-T19:2026-10-15:15": {
       "id": "library:LIB-T19:2026-10-15:15",
@@ -3456,7 +3456,7 @@
       "startHour": 16,
       "endHour": 17,
       "capacity": 4,
-      "usedCapacity": 2
+      "usedCapacity": 0
     },
     "library:LIB-C05:2026-10-15:16": {
       "id": "library:LIB-C05:2026-10-15:16",
@@ -3746,7 +3746,7 @@
       "startHour": 17,
       "endHour": 18,
       "capacity": 4,
-      "usedCapacity": 2
+      "usedCapacity": 0
     },
     "library:LIB-C02:2026-10-15:17": {
       "id": "library:LIB-C02:2026-10-15:17",
@@ -4076,7 +4076,7 @@
       "startHour": 18,
       "endHour": 19,
       "capacity": 4,
-      "usedCapacity": 2
+      "usedCapacity": 0
     },
     "library:LIB-C03:2026-10-15:18": {
       "id": "library:LIB-C03:2026-10-15:18",
@@ -4196,7 +4196,7 @@
       "startHour": 19,
       "endHour": 20,
       "capacity": 1,
-      "usedCapacity": 1
+      "usedCapacity": 0
     },
     "library:LIB-T07:2026-10-15:19": {
       "id": "library:LIB-T07:2026-10-15:19",
@@ -4276,7 +4276,7 @@
       "startHour": 19,
       "endHour": 20,
       "capacity": 1,
-      "usedCapacity": 1
+      "usedCapacity": 0
     },
     "library:LIB-T15:2026-10-15:19": {
       "id": "library:LIB-T15:2026-10-15:19",
@@ -4356,7 +4356,7 @@
       "startHour": 19,
       "endHour": 20,
       "capacity": 1,
-      "usedCapacity": 1
+      "usedCapacity": 0
     },
     "library:LIB-T23:2026-10-15:19": {
       "id": "library:LIB-T23:2026-10-15:19",
@@ -4406,7 +4406,7 @@
       "startHour": 19,
       "endHour": 20,
       "capacity": 4,
-      "usedCapacity": 2
+      "usedCapacity": 0
     },
     "library:LIB-C04:2026-10-15:19": {
       "id": "library:LIB-C04:2026-10-15:19",
@@ -5016,7 +5016,7 @@
       "startHour": 21,
       "endHour": 22,
       "capacity": 1,
-      "usedCapacity": 1
+      "usedCapacity": 0
     },
     "library:LIB-C01:2026-10-15:21": {
       "id": "library:LIB-C01:2026-10-15:21",
@@ -6726,7 +6726,7 @@
       "startHour": 12,
       "endHour": 14,
       "capacity": 20,
-      "usedCapacity": 0
+      "usedCapacity": 1
     },
     "laundry:LAU-DROP:2026-10-16:14": {
       "id": "laundry:LAU-DROP:2026-10-16:14",
@@ -50445,14 +50445,18 @@
         "E22CSEU0882"
       ],
       "units": 1,
-      "status": "Booked",
+      "status": "Auto-Released (No-Show)",
       "statusHistory": [
         {
           "status": "Booked",
           "at": 1792076931263
+        },
+        {
+          "status": "Auto-Released (No-Show)",
+          "at": 1792081132181
         }
       ],
-      "checkInDeadline": 1792081131263,
+      "checkInDeadline": null,
       "meta": {
         "seatName": "Table 02",
         "zone": "Whispering Gallery"
@@ -50509,14 +50513,18 @@
         "E23MECH0142"
       ],
       "units": 1,
-      "status": "Booked",
+      "status": "Auto-Released (No-Show)",
       "statusHistory": [
         {
           "status": "Booked",
           "at": 1792076931263
+        },
+        {
+          "status": "Auto-Released (No-Show)",
+          "at": 1792081132181
         }
       ],
-      "checkInDeadline": 1792081131263,
+      "checkInDeadline": null,
       "meta": {
         "seatName": "Table 06",
         "zone": "Whispering Gallery"
@@ -50573,14 +50581,18 @@
         "E21CSEU0078"
       ],
       "units": 1,
-      "status": "Booked",
+      "status": "Auto-Released (No-Show)",
       "statusHistory": [
         {
           "status": "Booked",
           "at": 1792076931263
+        },
+        {
+          "status": "Auto-Released (No-Show)",
+          "at": 1792081132181
         }
       ],
-      "checkInDeadline": 1792081131263,
+      "checkInDeadline": null,
       "meta": {
         "seatName": "Table 10",
         "zone": "Whispering Gallery"
@@ -50637,14 +50649,18 @@
         "E22CSEU0671"
       ],
       "units": 1,
-      "status": "Booked",
+      "status": "Auto-Released (No-Show)",
       "statusHistory": [
         {
           "status": "Booked",
           "at": 1792076931263
+        },
+        {
+          "status": "Auto-Released (No-Show)",
+          "at": 1792081132181
         }
       ],
-      "checkInDeadline": 1792081131263,
+      "checkInDeadline": null,
       "meta": {
         "seatName": "Table 14",
         "zone": "Quiet Reading Bay"
@@ -50701,14 +50717,18 @@
         "E23CSEU0789"
       ],
       "units": 1,
-      "status": "Booked",
+      "status": "Auto-Released (No-Show)",
       "statusHistory": [
         {
           "status": "Booked",
           "at": 1792076931263
+        },
+        {
+          "status": "Auto-Released (No-Show)",
+          "at": 1792081132181
         }
       ],
-      "checkInDeadline": 1792081131263,
+      "checkInDeadline": null,
       "meta": {
         "seatName": "Table 18",
         "zone": "Quiet Reading Bay"
@@ -50765,14 +50785,18 @@
         "E23MECH0076"
       ],
       "units": 1,
-      "status": "Booked",
+      "status": "Auto-Released (No-Show)",
       "statusHistory": [
         {
           "status": "Booked",
           "at": 1792076931263
+        },
+        {
+          "status": "Auto-Released (No-Show)",
+          "at": 1792081132181
         }
       ],
-      "checkInDeadline": 1792081131263,
+      "checkInDeadline": null,
       "meta": {
         "seatName": "Table 22",
         "zone": "Quiet Reading Bay"
@@ -50798,14 +50822,18 @@
         "E24MECH0089"
       ],
       "units": 2,
-      "status": "Booked",
+      "status": "Auto-Released (No-Show)",
       "statusHistory": [
         {
           "status": "Booked",
           "at": 1792076931263
+        },
+        {
+          "status": "Auto-Released (No-Show)",
+          "at": 1792081032036
         }
       ],
-      "checkInDeadline": 1792081031263,
+      "checkInDeadline": null,
       "meta": {
         "cubicleName": "Cubicle 01",
         "topic": "Capstone Project Ideation"
@@ -50831,14 +50859,18 @@
         "E22BTCH0021"
       ],
       "units": 2,
-      "status": "Booked",
+      "status": "Auto-Released (No-Show)",
       "statusHistory": [
         {
           "status": "Booked",
           "at": 1792076931263
+        },
+        {
+          "status": "Auto-Released (No-Show)",
+          "at": 1792081032036
         }
       ],
-      "checkInDeadline": 1792081031263,
+      "checkInDeadline": null,
       "meta": {
         "cubicleName": "Cubicle 02",
         "topic": "Capstone Project Ideation"
@@ -50864,14 +50896,18 @@
         "E23CSEU0789"
       ],
       "units": 2,
-      "status": "Booked",
+      "status": "Auto-Released (No-Show)",
       "statusHistory": [
         {
           "status": "Booked",
           "at": 1792076931263
+        },
+        {
+          "status": "Auto-Released (No-Show)",
+          "at": 1792081032036
         }
       ],
-      "checkInDeadline": 1792081031263,
+      "checkInDeadline": null,
       "meta": {
         "cubicleName": "Cubicle 03",
         "topic": "Capstone Project Ideation"
@@ -50897,14 +50933,18 @@
         "E24ECEU0404"
       ],
       "units": 2,
-      "status": "Booked",
+      "status": "Auto-Released (No-Show)",
       "statusHistory": [
         {
           "status": "Booked",
           "at": 1792076931263
+        },
+        {
+          "status": "Auto-Released (No-Show)",
+          "at": 1792081032036
         }
       ],
-      "checkInDeadline": 1792081031263,
+      "checkInDeadline": null,
       "meta": {
         "cubicleName": "Cubicle 04",
         "topic": "Capstone Project Ideation"
@@ -51420,18 +51460,57 @@
         "E22CSEU1001"
       ],
       "units": 1,
-      "status": "Booked",
+      "status": "Auto-Released (No-Show)",
       "statusHistory": [
         {
           "status": "Booked",
           "at": 1792080559904
+        },
+        {
+          "status": "Auto-Released (No-Show)",
+          "at": 1792081162226
         }
       ],
-      "checkInDeadline": 1792081159904,
+      "checkInDeadline": null,
       "meta": {
         "testRun": true
       },
       "createdAt": 1792080559904
+    },
+    "BK-4758CK": {
+      "id": "BK-4758CK",
+      "tag": "BU-L-9NRJ",
+      "runId": null,
+      "module": "laundry",
+      "resourceId": "LAU-DROP",
+      "slotIds": [
+        "laundry:LAU-DROP:2026-10-16:12"
+      ],
+      "date": "2026-10-16",
+      "startHour": 12,
+      "endHour": 14,
+      "studentId": "E22CSEU0123",
+      "studentName": "Aarav Sharma",
+      "members": [
+        "E22CSEU0123"
+      ],
+      "units": 1,
+      "status": "Dropped",
+      "statusHistory": [
+        {
+          "status": "Dropped",
+          "at": 1792081194758
+        }
+      ],
+      "checkInDeadline": null,
+      "meta": {
+        "serviceType": "Standard Wash",
+        "bags": 1,
+        "items": 14,
+        "hostel": "C5",
+        "room": "402"
+      },
+      "createdAt": 1792081194758
     }
   },
   "users": [
