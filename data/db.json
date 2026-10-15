@@ -49749,20 +49749,7 @@
       "usedCapacity": 0
     }
   },
-  "holds": {
-    "H-DEMO-01": {
-      "id": "H-DEMO-01",
-      "module": "library",
-      "resourceId": "LIB-T14",
-      "slotIds": [
-        "library:LIB-T14:2026-10-15:10"
-      ],
-      "studentId": "E23CSEU0362",
-      "studentName": "Chirag Goyal",
-      "createdAt": 1792080501263,
-      "expiresAt": 1792080591263
-    }
-  },
+  "holds": {},
   "bookings": {
     "BK-1001": {
       "id": "BK-1001",
