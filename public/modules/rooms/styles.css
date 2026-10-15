@@ -1,0 +1,7 @@
+/* public/modules/rooms/styles.css */
+
+.bu-rooms-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

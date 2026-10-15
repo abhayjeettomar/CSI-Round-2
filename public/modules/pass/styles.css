@@ -1,0 +1,30 @@
+/* public/modules/pass/styles.css */
+
+.bu-pass-layout {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.bu-ticket-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-hairline);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+.bu-ticket-notch {
+  position: relative;
+  height: 24px;
+  background: var(--bg-card);
+  border-top: 1px dashed var(--border-hairline);
+  margin: 1rem -1rem;
+}
+
+@media (max-width: 860px) {
+  .bu-pass-layout {
+    grid-template-columns: 1fr;
+  }
+}

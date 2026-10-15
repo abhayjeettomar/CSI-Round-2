@@ -1,0 +1,57 @@
+/* public/modules/library/styles.css */
+
+.bu-library-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.bu-hour-tabs {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.bu-hour-tab {
+  padding: 0.4rem 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-hairline);
+  background: var(--bg-card);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 120ms ease;
+}
+
+.bu-hour-tab:hover {
+  border-color: var(--border-strong);
+}
+
+.bu-hour-tab.active {
+  background: var(--text-primary);
+  color: #FFFFFF;
+  border-color: var(--text-primary);
+  font-weight: 600;
+}
+
+.bu-hold-banner {
+  background: #FFFBEB;
+  border: 1px solid #FCD34D;
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation: slide-in 200ms ease;
+}
+
+@media (max-width: 960px) {
+  .bu-library-layout {
+    grid-template-columns: 1fr;
+  }
+}

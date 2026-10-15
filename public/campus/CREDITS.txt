@@ -1,0 +1,8 @@
+BU PULSE Campus Image Credits & Manifest Registry
+All verified architectural references & campus photography sourced from:
+https://www.bennett.edu.in
+
+Verified downloads:
+library-interior: https://www.bennett.edu.in/wp-content/uploads/2017/06/contact-banner.jpg (Source: https://www.bennett.edu.in/facilities/library/)
+
+Slots without official imagery render bespoke architectural SVG blueprints.

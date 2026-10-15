@@ -1,0 +1,56 @@
+/* public/modules/staff/styles.css */
+
+.bu-staff-tabs {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 2px solid var(--border-hairline);
+  margin-bottom: 2rem;
+}
+
+.bu-staff-tab {
+  padding: 0.75rem 1.25rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: all 120ms ease;
+}
+
+.bu-staff-tab:hover {
+  color: var(--text-primary);
+}
+
+.bu-staff-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.bu-scanner-strip {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-hairline);
+  padding: 1.25rem;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.bu-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.bu-table th, .bu-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-hairline);
+}
+
+.bu-table th {
+  background: var(--bg-surface);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}

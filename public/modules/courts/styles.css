@@ -1,0 +1,25 @@
+/* public/modules/courts/styles.css */
+
+.bu-courts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.bu-court-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-hairline);
+  padding: 1.25rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.bu-court-card:hover {
+  border-color: var(--border-strong);
+}
+
+.bu-court-card.selected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}

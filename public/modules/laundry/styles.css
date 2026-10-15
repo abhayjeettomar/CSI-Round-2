@@ -1,0 +1,67 @@
+/* public/modules/laundry/styles.css */
+
+.bu-laundry-layout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.bu-service-selector {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.bu-service-card {
+  padding: 1rem 0.75rem;
+  border: 1px solid var(--border-hairline);
+  border-radius: 4px;
+  background: var(--bg-card);
+  cursor: pointer;
+  text-align: center;
+  transition: all 150ms ease;
+}
+
+.bu-service-card:hover {
+  border-color: var(--border-strong);
+}
+
+.bu-service-card.selected {
+  border-color: var(--accent);
+  background: #FFF8F6;
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.bu-form-group {
+  margin-bottom: 1.25rem;
+}
+
+.bu-form-group label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: var(--text-primary);
+}
+
+.bu-form-control {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--border-hairline);
+  background: #FFFFFF;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.bu-form-control:focus {
+  outline: none;
+  border-color: var(--text-primary);
+}
+
+@media (max-width: 900px) {
+  .bu-laundry-layout {
+    grid-template-columns: 1fr;
+  }
+}

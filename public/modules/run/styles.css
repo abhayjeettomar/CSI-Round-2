@@ -1,0 +1,47 @@
+/* public/modules/run/styles.css */
+
+.bu-run-layout {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.bu-timeline {
+  position: relative;
+  padding-left: 2rem;
+  margin: 1.5rem 0;
+}
+
+.bu-timeline::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 7px;
+  width: 2px;
+  background: var(--border-hairline);
+}
+
+.bu-timeline-item {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.bu-timeline-dot {
+  position: absolute;
+  left: -2rem;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--bg-card);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+@media (max-width: 900px) {
+  .bu-run-layout {
+    grid-template-columns: 1fr;
+  }
+}

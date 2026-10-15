@@ -1,0 +1,29 @@
+{
+  "name": "bu-pulse",
+  "version": "1.0.0",
+  "description": "BU PULSE — Unified, Real-Time, Atomic Campus Booking Platform for Bennett University",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "test:race": "node scripts/race-test.js"
+  },
+  "keywords": [
+    "bennett-university",
+    "campus-booking",
+    "atomic-reservations",
+    "sse",
+    "real-time"
+  ],
+  "author": "BU Pulse Team",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/instrument-serif": "^5.2.5",
+    "@fontsource/jetbrains-mono": "^5.2.5",
+    "@fontsource/plus-jakarta-sans": "^5.2.5",
+    "express": "^4.21.2",
+    "gsap": "^3.12.7",
+    "lenis": "^1.1.20"
+  }
+}

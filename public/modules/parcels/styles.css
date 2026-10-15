@@ -1,0 +1,9 @@
+/* public/modules/parcels/styles.css */
+
+.bu-parcel-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-hairline);
+  padding: 1.25rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}

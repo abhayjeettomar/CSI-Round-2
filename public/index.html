@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BU PULSE — Bennett University Unified Campus Booking Platform</title>
+  <meta name="description" content="Real-time, atomic campus booking platform for Bennett University, Greater Noida. Laundry turnaround, library seat mapping, multi-module campus runs, and zero ghost seats.">
+  
+  <!-- Architectural & Editorial Design System -->
+  <link rel="stylesheet" href="/app-shell/shell.css">
+</head>
+<body>
+  <!-- Top Utility & Telemetry Bar -->
+  <aside class="bu-utility-bar" aria-label="Campus Telemetry & Controls">
+    <div class="bu-utility-left">
+      <div class="bu-pulse-indicator">
+        <span class="bu-live-dot"></span>
+        <span>BENNETT CAMPUS PULSE &bull; LIVE</span>
+      </div>
+      <button class="bu-sim-pill" title="Toggle background crowd simulator for live demo telemetry">
+        <span>Crowd Sim: <strong>PAUSED</strong></span>
+      </button>
+    </div>
+
+    <div class="bu-utility-right">
+      <button class="bu-race-pill" title="Fire 30 concurrent requests to prove zero race conditions">
+        <span>Proof It Works (30x Race Test)</span>
+      </button>
+      <button class="bu-persona-pill" title="1-Click Simulated Student & Staff Persona Switcher">
+        <span>Aarav Sharma <strong>(E22CSEU0123)</strong></span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Editorial Campus Header -->
+  <header class="bu-header">
+    <div class="bu-brand">
+      <a href="#/" class="bu-logo">BU PULSE</a>
+      <span class="bu-subbrand">BENNETT UNIVERSITY &bull; GREATER NOIDA</span>
+    </div>
+
+    <nav class="bu-nav" aria-label="Main Navigation">
+      <a href="#/" class="bu-nav-link">Home</a>
+      <a href="#/laundry" class="bu-nav-link">Laundry</a>
+      <a href="#/library" class="bu-nav-link">Library</a>
+      <a href="#/run" class="bu-nav-link">Campus Run</a>
+      <a href="#/pass" class="bu-nav-link">Campus Pass</a>
+      <a href="#/courts" class="bu-nav-link">Courts</a>
+      <a href="#/parcels" class="bu-nav-link">Parcels</a>
+      <a href="#/rooms" class="bu-nav-link">Rooms</a>
+      <a href="#/staff" class="bu-nav-link">Staff Consoles</a>
+      <a href="#/database" class="bu-nav-link" style="color: var(--accent); font-weight: 700;">Live DB</a>
+    </nav>
+
+    <div>
+      <a href="#/run" class="bu-nav-cta">
+        <span>Plan a Run</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- SPA Router Target Viewport -->
+  <main id="app-viewport"></main>
+
+  <!-- Mobile Bottom Navigation Bar (< 768px) -->
+  <nav class="bu-mobile-nav" aria-label="Mobile Navigation">
+    <a href="#/" class="bu-mobile-item">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="#/run" class="bu-mobile-item">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+      <span>Run</span>
+    </a>
+    <a href="#/library" class="bu-mobile-item">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+      <span>Library</span>
+    </a>
+    <a href="#/laundry" class="bu-mobile-item">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="2" width="18" height="20" rx="2"/><circle cx="12" cy="13" r="5"/><path d="M12 10a3 3 0 0 0-3 3"/></svg>
+      <span>Laundry</span>
+    </a>
+    <a href="#/database" class="bu-mobile-item">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+      <span>DB</span>
+    </a>
+    <a href="#/pass" class="bu-mobile-item">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><rect x="7" y="7" width="3" height="3"/><rect x="14" y="7" width="3" height="3"/><rect x="7" y="14" width="3" height="3"/></svg>
+      <span>Pass</span>
+    </a>
+  </nav>
+
+  <!-- Local Offline-Proof Vendor Libraries -->
+  <script src="/vendor/gsap/dist/gsap.min.js"></script>
+  <script src="/vendor/gsap/dist/ScrollTrigger.min.js"></script>
+  <script src="/vendor/lenis/dist/lenis.min.js"></script>
+
+  <!-- Main ES Module Application Shell -->
+  <script type="module" src="/app-shell/shell.js"></script>
+</body>
+</html>
